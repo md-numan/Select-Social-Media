@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(100deg,blue,red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.selector{
+    width: 21.8rem;
+    
+}
+
+
+#selectField{
+    width: 100%;
+    padding: .9rem 1.2rem;
+    margin-bottom: 1.8rem;
+    box-sizing: border-box;
+    background: rgba(155,155,255,0.7);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: black;
+}
+
+
+#selectField a {
+    width: .7rem;
+    font-size: 1.6rem;
+    color: black;
+    transition: transform 0.5s;
+  
+
+}
+
+#list{
+    width: 100%;
+    background: rgba(155,155,255,0.7);
+    border-radius: .3rem;
+    overflow: hidden;
+    font-weight: 800;
+  
+
+    
+}
+
+#list a {
+    width: 100%;
+    display: flex;
+    padding: .9rem 0 .9rem 4.3rem;
+   box-sizing: border-box;
+   position: relative;
+   text-decoration: none;
+ 
+}
+
+#list a i {
+    width: 1.6rem;  
+    position: absolute;
+    font-size: 1.5rem;
+    top: .7rem;
+    left: 1.5rem;
+    color: black;
+
+}
+
+#list a:hover{
+    background: white;
+}
+
+
+.hide{
+    visibility: hidden;
+}
+
+.rotate{
+   transform: rotate(180deg);
+    
+}
+
+
+
+
+
+
+
+
+
+
